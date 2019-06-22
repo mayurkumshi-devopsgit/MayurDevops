@@ -1,9 +1,9 @@
 - name: Create an ec2 instance
   ec2:
     key_name: "{{ keypair }}"
-    aws_access_key: "AKIAIE7OA6I33XPSYWAQ"
-    aws_secret_key: "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"
-    group: launch-wizard-2  # security group name
+    aws_access_key: "AKIAIC5WZBYHFAKLSVRQ"
+    aws_secret_key: "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"
+    group: launch-wizard-6  # security group name
     instance_type: "{{ instance_type}}"
     image: "{{ ami }}"
     wait: true
@@ -13,7 +13,7 @@
       Name: "Demo"
     instance_tags:
       Name: "Demo"
-    vpc_subnet_id: "subnet-4303836c"
+    vpc_subnet_id: "subnet-860f67fc"
     assign_public_ip: yes
   register: ec2
     
