@@ -1,7 +1,0 @@
----
-# defaults file for tomcat_aws
-region: us-east-2
-instance_type: t2.micro
-ami: ami-0b500ef59d8335eee  # Redhat
-keypair: AWS-Demo  # pem file name
-
